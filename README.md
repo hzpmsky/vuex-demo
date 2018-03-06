@@ -14,3 +14,8 @@ npm run dev
 npm run build
 ```
 # vuex-demo
+
+IE 浏览器下无法打开：
+function assert (condition, msg) {
+  if (!condition) { throw new Error(("[vuex] " + msg)) } // [vuex] vuex requires a Promise polyfill in this browser.
+}
